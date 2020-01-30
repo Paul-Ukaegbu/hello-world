@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .container{
     display: grid
     table-column-group
@@ -42,7 +41,7 @@ body {
 }
 
 .nav-link-wrapper:hover {
-    border-bottom: 1px solid aquamarine;
+    border-bottom: 1px solid red;
 }
 
 .nav-link-wrapper a:hover {
@@ -51,17 +50,27 @@ body {
 
 .right-side{
     font-size: large;
-    color: green;
+    color: rgb(185, 56, 56);
 }
 
 /*background*/
 
-.background-wrapper{
-    height: fit-content;
-    left: 10%;
-    margin: 20px auto;
-    overflow-y: static;
-    position: static;
-    width: 50%;
 
+h1 {
+   text-align: center;
+   color: rgb(212, 99, 99);
+   text-shadow: #524e4e;
 }
+
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+    border:50; outline:0;
+    padding: 1em;
+    border-radius: 8px;
+    display: grid;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }

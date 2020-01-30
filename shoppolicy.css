@@ -1,8 +1,6 @@
 /*master design*/
 body {
-    background: white;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
 }
 
 .container{
@@ -42,7 +40,7 @@ body {
 }
 
 .nav-link-wrapper:hover {
-    border-bottom: 1px solid aquamarine;
+    border-bottom: 1px solid red;
 }
 
 .nav-link-wrapper a:hover {
@@ -51,12 +49,11 @@ body {
 
 .right-side{
     font-size: large;
-    color: green;
+    color: rgb(185, 56, 56);
 }
 
-/*background*/
-
-.background-wrapper{
+.policy{
+    
     height: fit-content;
     left: 10%;
     margin: 20px auto;
@@ -65,3 +62,4 @@ body {
     width: 50%;
 
 }
+/*background*/
